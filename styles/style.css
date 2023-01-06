@@ -2,6 +2,10 @@
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
+li{
+    list-style: none;
+    padding: 8px;
+}
 .head-line{
     font-weight: 700;
     font-size: 65px;
@@ -48,4 +52,23 @@
 .banner-container{
     display: flex;
     justify-content: end;
+}
+/* failure section */
+
+.fail-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 131px;
+}
+.list-item{
+    width: 30%;
+}
+.list-head{
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.list-dsc{
+    padding-bottom: 16px;
 }
