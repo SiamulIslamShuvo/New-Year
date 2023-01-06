@@ -103,3 +103,22 @@ li{
     font-size: 25px;
     color: #737272;
 }
+/* call to action */
+
+.cta{
+    background-image: url(../images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 8px;
+}
+.cta-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF
+}
+.cta-content{
+    padding: 60px;
+    width: 40%;
+}
