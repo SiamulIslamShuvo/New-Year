@@ -122,3 +122,57 @@ li{
     padding: 60px;
     width: 40%;
 }
+
+/* footer Section */
+footer{
+    background-color: #151414;
+    height: 50vh;
+    color: #FFFFFF;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.foot-1{
+    width: 485px;
+}
+.foot-2{ 
+    width: 325px;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding: 10px;
+
+}
+.footer-dsc{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+}
+.sub{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.email{
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.sub-btn{
+    width: 160px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
