@@ -29,6 +29,11 @@ li{
     color: #005FAC;
 
 }
+.container{
+    max-width: 1440px;
+    width: 95%;
+    margin: 0 auto;
+}
 /* Banner section */
 
 .banner{
@@ -38,11 +43,6 @@ li{
     display: flex;
     align-items: center;
     
-}
-.container{
-    max-width: 1440px;
-    width: 95%;
-    margin: 0 auto;
 }
 .container-cta{
     width: 40%;
@@ -71,4 +71,35 @@ li{
 }
 .list-dsc{
     padding-bottom: 16px;
+}
+
+/*Plans Section */
+
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;
+}
+.plan-container{
+    margin: 65px auto;
+}
+.plan-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+.plan-content{
+    padding: 5px;
+}
+.plan-headline{
+    font-weight: 700;
+    font-size: 30px;
+}
+.plan-dsc{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
