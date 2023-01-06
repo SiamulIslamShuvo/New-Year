@@ -103,6 +103,20 @@ li{
     font-size: 25px;
     color: #737272;
 }
+/* About Me */
+
+
+.about-title{
+    font-weight: 800;
+    font-size: 60px;
+    color: #005FAC;
+}
+.about-dsc{
+    width: 50%;
+}
+.about-img{
+    margin-bottom: -5px;
+}
 /* call to action */
 
 .cta{
