@@ -6,6 +6,9 @@ li{
     list-style: none;
     padding: 8px;
 }
+i{
+    color: #16D887;
+}
 .head-line{
     font-weight: 700;
     font-size: 65px;
