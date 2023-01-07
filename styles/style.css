@@ -44,15 +44,31 @@ li{
     align-items: center;
     
 }
+.banner-container{
+    display: flex;
+    justify-content: end;
+}
 .container-cta{
     width: 40%;
     text-align: right;
 
 }
-.banner-container{
-    display: flex;
-    justify-content: end;
+
+/* About Me */
+
+
+.about-title{
+    font-weight: 800;
+    font-size: 60px;
+    color: #005FAC;
 }
+.about-dsc{
+    width: 50%;
+}
+.about-img{
+    margin-bottom: -5px;
+}
+
 /* failure section */
 
 .fail-container{
@@ -103,20 +119,7 @@ li{
     font-size: 25px;
     color: #737272;
 }
-/* About Me */
 
-
-.about-title{
-    font-weight: 800;
-    font-size: 60px;
-    color: #005FAC;
-}
-.about-dsc{
-    width: 50%;
-}
-.about-img{
-    margin-bottom: -5px;
-}
 /* call to action */
 
 .cta{
